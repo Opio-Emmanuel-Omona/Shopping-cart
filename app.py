@@ -5,7 +5,7 @@ APP = Flask(__name__)
 
 @APP.route("/")
 def home():
-    return "Hello world"
+    return "Hello World"
 
 
 if __name__ == '__main__':
