@@ -9,4 +9,4 @@ script:
   - coveralls
   - coveralls
 after-success:
-  coveralls
+  - coveralls
