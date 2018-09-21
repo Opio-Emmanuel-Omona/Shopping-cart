@@ -3,10 +3,10 @@ python:
   - "3.6.0"
 install:
   - pip install -r requirements.txt
+  - pip install pytest
+  - pip install pytest-cov
+  - pip install coveralls
 script: 
   - pytest --cov=app.py
-  - coverage
-  - coveralls
-  - coveralls
 after-success:
   - coveralls
